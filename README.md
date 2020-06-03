@@ -2,4 +2,4 @@
 
 ## result
 
-![result](/Users/zlung/Desktop/CodeChallenge/img/result.png)
+![result](./img/result.png)
