@@ -1,0 +1,27 @@
+#ifndef __CODECHALLENGE_FAVORS_H__
+#define __CODECHALLENGE_FAVORS_H__
+
+#include <string>
+#include <vector>
+#include <unordered_set>
+
+class Favors {
+private:
+    // subscribe list
+    std::unordered_set<std::string> favors;
+public:
+
+    // return subscribe list
+    std::vector<std::string> GetFavors();
+
+    // check if in subscribe list
+    bool isSubscribe(std::string stock);
+    
+    // add in favors
+    void Subscribe(std::vector<std::string> stocks);
+    
+    // remove from favors
+    void Unsubscribe(std::vector<std::string> stocks);
+};
+
+#endif //__CODECHALLENGE_FAVORS_H__
